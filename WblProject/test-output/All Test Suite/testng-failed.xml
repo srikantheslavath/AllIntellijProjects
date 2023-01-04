@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
+  <test thread-count="5" name="C:/Users/Sampath Velupula/IdeaProjects/WblProject(failed)">
+    <classes>
+      <class name="com.PageTestPackage.HomePageTest">
+        <methods>
+          <include name="TearDown"/>
+          <include name="setup"/>
+          <include name="TestTitle"/>
+        </methods>
+      </class> <!-- com.PageTestPackage.HomePageTest -->
+      <class name="com.PageTestPackage.LoginPageTest">
+        <methods>
+          <include name="SetUp"/>
+          <include name="TearDown"/>
+          <include name="VerifyLoginTitleTest"/>
+        </methods>
+      </class> <!-- com.PageTestPackage.LoginPageTest -->
+    </classes>
+  </test> <!-- C:/Users/Sampath Velupula/IdeaProjects/WblProject(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Sampath Velupula/IdeaProjects/HybridFrameworkCRM">
+        <classes>
+
+            <class name="com.TestPagePackage.LoginPage1TestClass">
+                <methods>
+                    <include name="loginPage1TitleTest"/>
+                    <include name="FreeCrmLogoTest"/>
+                    <include name="validateLogin1Test"/>
+                </methods>
+            </class>
+
+
+            <class name="com.TestPagePackage.LoginPage2TestClass">
+                <methods>
+                    <include name="loginPage2TitleTest"/>
+                    <include name="Login1Test"/>
+                </methods>
+            </class>
+
+            <class name="com.TestPagePackage.HomePage3TestClass">
+                <methods>
+                    <include name="homepageTitleTest"/>
+                    <include name="verifyUsernameLabelTest"/>
+                    <include name="verifyContactsLinkTest"/>
+                    <include name="clickOnAddContactsTest"/>
+                </methods>
+            </class>
+
+            <class name="com.TestPagePackage.ContactsPage4TestClass">
+                <methods>
+                    <include name="verifyContactsLabelTest"/>
+                    <include name="validateAddContact"/>
+                    <include name="verifyContactsByNameTest"/>
+                </methods>
+            </class>
+
+
+        </classes>
+    </test>
+</suite>

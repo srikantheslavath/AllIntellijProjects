@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Sampath Velupula/IdeaProjects/AmazonAutomation2">
+        <classes><class name="org.PageTestPackage.HomePageTest">
+            <methods>
+                <include name="HomePageTitleTest"/>
+                <include name="validateFlagTest"/>
+                <include name="validateAmazonLogoTest"/>
+                <include name="ValidateCart"/><include name="validateSignIn"/>
+            </methods>
+        </class>
+            <class name="org.PageTestPackage.SignInPage1Test">
+                <methods>
+                    <include name="signinpage2TitleTest"/>
+                    <include name="validatesigninbtnTest"/>
+                    <include name="validateForgotPasswordTest"/>
+                    <include name="validateSignIn2Test"/>
+                </methods>
+            </class>
+            <class name="org.PageTestPackage.SignInPageTest">
+                <methods><include name="SignInPageTitleTest"/>
+                    <include name="validateContinueTest"/>
+                    <include name="validateCreateAccTest"/>
+                    <include name="validateNeedHelp"/>
+                    <include name="signInPageTest2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
